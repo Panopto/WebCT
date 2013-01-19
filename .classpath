@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/webct1403_sdk_client.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/axis-ant.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/jaas.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/saaj.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/tt-bytecode.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/SDKClient/activation.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/external_libraries/WebCT/ce6/3rdParty/SDKClient/mail.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/current/Panopto/External/WebCT/src/com/panopto/lib/axis.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/current/Panopto/External/WebCT/src/com/panopto/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/src/Panopto/current/Panopto/External/WebCT/src/com/panopto/lib/webctdao-2.4.02.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

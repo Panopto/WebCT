@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployablecomponents>
+	<component>
+		<version>1.0.77</version>
+		<powerlinks-version>3.0</powerlinks-version>
+		<id>PanoptoAuthModule</id>
+		<type>sso</type>
+		<classname>com.panopto.PanoptoAuthModule</classname>
+		<author>Panopto</author>
+		<description>Panopto integration deployable component.</description>
+		<settings-structure>
+			<settings-group name="PanoptoAuthModule" type="service" label="Panopto">
+				<setting-element name="mode"
+						 label="security.authNModule.mode"
+						 data-type="String"
+						 presentation-type="ComboBox"
+						 inheritable="true"
+						 optional="false"
+						 read-only="true">
+					<setting-value key="outgoing" default="false"  label="security.authNModule.mode.outgoing"/>
+					<setting-value key="incoming" default="false"  label="security.authNModule.mode.incoming"/>
+					<setting-value key="both" default="true"  label="security.authNModule.mode.both"/>
+				</setting-element>
+			
+				<setting-element name="operationalTimeout"
+						 label="security.authNModule.operationalTimeout"
+						 data-type="Integer"
+						 presentation-type="TextField"
+						 inheritable="true"
+						 optional="false"
+						 read-only="false"
+						 default-value="10">
+				</setting-element>
+				
+				<setting-element name="PanoptoCourseUrl"
+						label="Panopto Course Url - populated when the plugin is added to a section"
+						data-type="String"
+						presentation-type="TextField"
+						inheritable="true"
+						optional="false"
+						read-only="true"
+						default-value=" ">
+				</setting-element>
+				
+				<setting-element name="PanoptoCourseId"
+						label="Panopto Course Id - populated when the plugin is added to a section"
+						data-type="String"
+						presentation-type="TextField"
+						inheritable="true"
+						optional="false"
+						read-only="true"
+						default-value=" ">
+				</setting-element>
+				
+				<setting-element name="openInNewWindow"
+					 label="security.authNModule.openInNewWindow"
+					 data-type="Boolean"
+					 presentation-type="RadioGroup"
+					 inheritable="true"
+					 optional="false"
+					 read-only="true">
+					 <setting-value key="true" default="true" label="true"/>
+					 <setting-value key="false" default="false" label="false"/>
+				</setting-element>
+				
+				<setting-element name="assistedConfig"
+					label="Assisted Config"
+					data-type="Boolean"
+					presentation-type="RadioGroup"
+					inheritable="true"
+					optional="false"
+					read-only="true">
+					<setting-value key="true" default="true" label="true"/>
+					<setting-value key="false" default="false" label="false"/>
+				</setting-element>
+				
+				<setting-element name="assistedConfigButtonName"
+					label="Assisted Config Button Name"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="true"
+					read-only="true"
+					default-value="Submit"/>
+					
+				<setting-element name="controlflag"
+					label="Control Flag"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="true"
+					default-value="SUFFICIENT"/>
+					
+				<setting-element name="order"
+					label="Order"
+					data-type="Integer"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="true"
+					default-value="0"/>
+					
+				<setting-element name="urlpattern"
+					label="Url Pattern"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="true"
+					default-value="Panopto"/>
+
+				<setting-element name="PanoptoServerName"
+					label="Panopto Server Name"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="false"
+					default-value=""/>
+					
+				<setting-element name="PanoptoApplicationKey"
+					label="Panopto Application Key - copy from Panopto"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="false"
+					default-value=""/>
+					
+				<setting-element name="WebCTInstanceName"
+					label="WebCT Instance Name - copy from Panopto"
+					data-type="String"
+					presentation-type="TextField"
+					inheritable="true"
+					optional="false"
+					read-only="false"
+					default-value=""/>
+			</settings-group>
+		</settings-structure>
+	</component>
+</deployablecomponents>
